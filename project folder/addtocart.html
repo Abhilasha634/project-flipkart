@@ -1,0 +1,57 @@
+ 
+                        <!DOCTYPE html>
+                        <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <link rel="stylesheet" href="home2.css">
+                            <title>Order Form</title>
+                        </head>
+                        <body>
+                            <div class="container">
+                                <h1>Order Form</h1>
+                                <form id="myform">
+                                    <label for="name">Name:</label>
+                                    <input type="text" id="name" name="name" required>
+                        
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" name="email" required>
+                        
+                                    <label for="product">Select Product:</label>
+                                    <select id="product" name="product" required>
+                                        <option value="product1">Product 1</option>
+                                        <option value="product2">Product 2</option>
+                                        <option value="product3">Product 3</option>
+                                        <option value="product1">Product 4</option>
+                                        <option value="product2">Product 5</option>
+                                        <option value="product3">Product 6</option>
+                                        <option value="product1">Product 7</option>
+                                        <option value="product2">Product 8</option>
+                                        <option value="product3">Product 9</option>
+                                        <option value="product1">Product 10</option>
+                                        <option value="product2">Product 11</option>
+                                        <option value="product3">Product 12<option>
+                                    </select>
+                        
+                                    <label for="quantity">Quantity:</label>
+                                    <input type="number" id="quantity" name="quantity" min="1" required>
+                                    <button onclick="myFunction()">submit</button>
+                                    
+                                    <script>
+                                
+                                    if (!name||!email){
+                                      alert("order successfully");
+                                    }
+                                    else{
+                                        alert("not successfull")
+
+                                    }
+                                    </script>
+                                    
+                            
+                                    
+                                
+                                </form>
+                            </div>
+                        </body>
+                        </html>
